@@ -1,7 +1,10 @@
-import 'core-js/stable';
-export { LitElement, html, css, svg ,nothing  } from 'lit';
-export {  customElement,  property,  state,  query,  queryAll,  eventOptions} from 'lit/decorators.js';
+// Core
+export { LitElement, html, css, svg, nothing, render } from 'lit';
 
+// decorators
+export { customElement, property, state, query, queryAll, eventOptions} from 'lit/decorators.js';
+
+// directives
 export { asyncAppend } from 'lit/directives/async-append.js';
 export { asyncReplace } from 'lit/directives/async-replace.js';
 export { cache } from 'lit/directives/cache.js';
@@ -23,4 +26,6 @@ export { unsafeSVG } from 'lit/directives/unsafe-svg.js';
 export { until } from 'lit/directives/until.js';
 export { when } from 'lit/directives/when.js';
 
+
+// helpers
 export { createRef, ref} from 'lit/directives/ref.js';
