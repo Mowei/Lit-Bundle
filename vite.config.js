@@ -15,7 +15,7 @@ export default defineConfig({
             },
         },
         lib: {
-            entry: resolve(__dirname, 'entry-bundle.js'),
+            entry: resolve(__dirname, 'src/entry-bundle.js'),
             name: 'lit-all.min',
             fileName: 'lit-all.min',
         },
